@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{32e112ad-c7f0-41c1-a844-7885afdef94b}">
+		<property name="assetPath">
+			<value>Max SFX/BJ_gingerbread_fs_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.85766666666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{39f5cb70-36f3-4695-a94f-568a76a7769a}</destination>
+		</relationship>
+	</object>
+</objects>

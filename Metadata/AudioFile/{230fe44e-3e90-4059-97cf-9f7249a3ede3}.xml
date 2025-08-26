@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{230fe44e-3e90-4059-97cf-9f7249a3ede3}">
+		<property name="assetPath">
+			<value>Max SFX/BJ_Guard_footsteps-004.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.4573125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{39f5cb70-36f3-4695-a94f-568a76a7769a}</destination>
+		</relationship>
+	</object>
+</objects>

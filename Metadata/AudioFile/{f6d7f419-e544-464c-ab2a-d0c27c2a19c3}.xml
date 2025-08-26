@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f6d7f419-e544-464c-ab2a-d0c27c2a19c3}">
+		<property name="assetPath">
+			<value>Max SFX/BJ_Guard_Gunshot-004.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.4180208333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{39f5cb70-36f3-4695-a94f-568a76a7769a}</destination>
+		</relationship>
+	</object>
+</objects>

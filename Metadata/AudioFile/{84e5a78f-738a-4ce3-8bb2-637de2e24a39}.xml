@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{84e5a78f-738a-4ce3-8bb2-637de2e24a39}">
+		<property name="assetPath">
+			<value>Max SFX/BJ_Guard_hmm.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.0852291666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{39f5cb70-36f3-4695-a94f-568a76a7769a}</destination>
+		</relationship>
+	</object>
+</objects>
