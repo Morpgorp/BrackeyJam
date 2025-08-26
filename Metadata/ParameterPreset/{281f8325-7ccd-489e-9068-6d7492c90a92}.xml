@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{281f8325-7ccd-489e-9068-6d7492c90a92}">
+		<property name="name">
+			<value>Hidden.Found</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e0d45821-0e9d-43b9-a22c-a3f96b172284}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e37aebef-85e6-49d1-82ad-93d3417db75c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e37aebef-85e6-49d1-82ad-93d3417db75c}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
