@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{d75b30c3-ead5-403b-a9f1-e878d7d20064}">
+		<property name="name">
+			<value>Background Music</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{17c135b2-42bc-45c3-b68b-68cba39f0ef2}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{458fa0cc-9809-460d-a480-c33f4698e097}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{50761992-83c6-4dad-acaa-7be3f289ec08}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{17c135b2-42bc-45c3-b68b-68cba39f0ef2}">
+		<relationship name="effects">
+			<destination>{861fd704-76a6-4660-b6d1-5e37fb96a1bd}</destination>
+			<destination>{0b269d8e-bbc6-4632-90e7-6b48b87daa28}</destination>
+			<destination>{83d9aa74-5acf-4e1e-8ace-696f7b5894a6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{458fa0cc-9809-460d-a480-c33f4698e097}" />
+	<object class="Sidechain" id="{861fd704-76a6-4660-b6d1-5e37fb96a1bd}">
+		<property name="level">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{0b269d8e-bbc6-4632-90e7-6b48b87daa28}" />
+	<object class="CompressorEffect" id="{83d9aa74-5acf-4e1e-8ace-696f7b5894a6}" />
+</objects>

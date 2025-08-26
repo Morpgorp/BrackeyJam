@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{573edf5a-5039-490b-a2bb-ac14b7c40b35}">
+		<property name="name">
+			<value>Knock.Vol</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e0d45821-0e9d-43b9-a22c-a3f96b172284}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{af79abb6-b49f-4746-8302-173d370792aa}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{af79abb6-b49f-4746-8302-173d370792aa}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="automators">
+			<destination>{fd4a8d67-3aa0-4498-b253-278812f97c9f}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{fd4a8d67-3aa0-4498-b253-278812f97c9f}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

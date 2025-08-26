@@ -55,7 +55,7 @@
 			<destination>{d5a6f49e-5970-4087-a1fa-ae16d2a38a1e}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{50761992-83c6-4dad-acaa-7be3f289ec08}</destination>
+			<destination>{d75b30c3-ead5-403b-a9f1-e878d7d20064}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8c49a947-edb8-4bb2-94b2-963f0910ac5f}" />
@@ -203,7 +203,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>245.37498866213153</value>
+			<value>242.58951095249267</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{bc504235-cb63-4942-8a74-4045e21c40e9}</destination>
@@ -229,6 +229,7 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4e3d3986-f031-4401-8b9d-4dda44bc8f0a}">
 		<relationship name="effects">
+			<destination>{58d83384-16fb-46f8-ad71-1ebaf9ce34a5}</destination>
 			<destination>{87455ac4-c35c-4a2b-afe2-3830f6877dd5}</destination>
 		</relationship>
 	</object>
@@ -262,6 +263,11 @@
 			<destination>{d497dcf6-1ba3-4387-974e-c5d2102259ce}</destination>
 			<destination>{801afe25-f3cb-4aae-b499-bb5b67259287}</destination>
 		</relationship>
+	</object>
+	<object class="GainEffect" id="{58d83384-16fb-46f8-ad71-1ebaf9ce34a5}">
+		<property name="gain">
+			<value>-3</value>
+		</property>
 	</object>
 	<object class="MixerBusFader" id="{87455ac4-c35c-4a2b-afe2-3830f6877dd5}" />
 	<object class="AutomationCurve" id="{cb480a4c-23a6-4089-8a76-8603e8a85845}">

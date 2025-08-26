@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{38524ba6-36de-4585-a400-3cabb21ebd5e}">
+		<property name="name">
+			<value>Light.Distance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e0d45821-0e9d-43b9-a22c-a3f96b172284}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a668a4b4-a037-46bf-9a71-17c0bb3b6160}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a668a4b4-a037-46bf-9a71-17c0bb3b6160}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
