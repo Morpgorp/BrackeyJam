@@ -53,7 +53,7 @@
 			<destination>{b202f26e-a61d-4a8d-b160-e4c52962395b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{50761992-83c6-4dad-acaa-7be3f289ec08}</destination>
+			<destination>{7183f498-f23e-471f-8772-d341f8d6ab9b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d40b486b-fdc7-4650-ab9c-8920b96bbf92}" />
@@ -118,6 +118,9 @@
 	<object class="MixerBusEffectChain" id="{78a8df02-2212-42be-9662-46091611d76d}">
 		<relationship name="effects">
 			<destination>{ff8e31a9-681c-49f6-bce2-f8b0fd895cb2}</destination>
+			<destination>{cf8b00e5-55e9-4506-b97a-b6ec8e6e6bdb}</destination>
+			<destination>{81391bb7-57cf-4967-b69a-4c56afdc5819}</destination>
+			<destination>{8735d560-f66b-4899-ac3c-dbde44a19a88}</destination>
 			<destination>{5fcd2a6b-695c-465f-a702-18fbaad8f9c5}</destination>
 		</relationship>
 	</object>
@@ -153,6 +156,48 @@
 	</object>
 	<object class="MixerBusPanner" id="{3fcc399c-6bd3-456c-b21a-f65b6b7ac2e5}" />
 	<object class="MixerBusFader" id="{ff8e31a9-681c-49f6-bce2-f8b0fd895cb2}" />
+	<object class="ThreeEQEffect" id="{cf8b00e5-55e9-4506-b97a-b6ec8e6e6bdb}">
+		<property name="lowGain">
+			<value>-18.5</value>
+		</property>
+		<property name="midGain">
+			<value>-13</value>
+		</property>
+		<property name="highGain">
+			<value>-11.5</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{81391bb7-57cf-4967-b69a-4c56afdc5819}">
+		<property name="threshold">
+			<value>-25</value>
+		</property>
+		<property name="ratio">
+			<value>1.5</value>
+		</property>
+		<property name="attackTime">
+			<value>0.5</value>
+		</property>
+		<property name="releaseTime">
+			<value>180</value>
+		</property>
+		<property name="gain">
+			<value>7.5</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{8735d560-f66b-4899-ac3c-dbde44a19a88}">
+		<property name="filterTypeA">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>1400</value>
+		</property>
+		<property name="qualityA">
+			<value>1.30000007</value>
+		</property>
+		<property name="gainA">
+			<value>4.65517426</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{5fcd2a6b-695c-465f-a702-18fbaad8f9c5}" />
 	<object class="MixerBusFader" id="{4723c2e3-f67d-43a2-975d-48972aef8e25}" />
 </objects>

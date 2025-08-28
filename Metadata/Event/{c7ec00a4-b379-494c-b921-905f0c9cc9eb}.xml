@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{c7ec00a4-b379-494c-b921-905f0c9cc9eb}">
 		<property name="name">
-			<value>Reg.Item</value>
+			<value>Special1.Item</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -93,6 +93,7 @@
 	<object class="MixerBusEffectChain" id="{8b04eb6f-a37c-4b18-bc5c-607b6493ba26}">
 		<relationship name="effects">
 			<destination>{920b575d-8df2-42f4-b941-c32c2d727ff3}</destination>
+			<destination>{e091b7c6-b0c0-4d80-9c5c-cfa7956dd89b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{40f38200-e6d7-48ee-b8fb-b56f7267c447}" />
@@ -108,6 +109,17 @@
 	</object>
 	<object class="MixerBusFader" id="{fa53fcd4-7ddd-4476-81e9-68199391f786}" />
 	<object class="MixerBusFader" id="{920b575d-8df2-42f4-b941-c32c2d727ff3}" />
+	<object class="ThreeEQEffect" id="{e091b7c6-b0c0-4d80-9c5c-cfa7956dd89b}">
+		<property name="lowGain">
+			<value>-2</value>
+		</property>
+		<property name="midGain">
+			<value>-2</value>
+		</property>
+		<property name="highGain">
+			<value>-2.5</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{13eef9a7-59c7-46e5-af4e-271d55318237}">
 		<relationship name="modulators">
 			<destination>{3d950250-2c67-414f-8a03-13a911590656}</destination>

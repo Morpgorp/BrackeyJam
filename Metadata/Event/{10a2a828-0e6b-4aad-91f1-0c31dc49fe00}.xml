@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{10a2a828-0e6b-4aad-91f1-0c31dc49fe00}">
 		<property name="name">
-			<value>Run</value>
+			<value>RunNING</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{2d676c13-94e1-47bc-a4f3-e2bbd1243126}</destination>
+			<destination>{f4e9c46e-d321-4ef4-a847-9c71a01c259f}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{1b286014-bdab-4caa-b754-b16215737075}</destination>
@@ -53,7 +53,7 @@
 			<destination>{d7662bc8-546d-48c1-9668-d8551dc2ae70}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{50761992-83c6-4dad-acaa-7be3f289ec08}</destination>
+			<destination>{7183f498-f23e-471f-8772-d341f8d6ab9b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7529b9d0-df23-4f5c-85f9-a7903d37c50c}" />
@@ -103,6 +103,9 @@
 		<property name="looping">
 			<value>true</value>
 		</property>
+		<property name="playlistMode">
+			<value>1</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{df2ea7f9-15cc-4533-befc-963f0962b087}</destination>
 			<destination>{4114feeb-aaaf-4299-b29c-4c62997a4e7a}</destination>
@@ -117,6 +120,9 @@
 	<object class="MixerBusFader" id="{62f5c4f3-bc54-4610-8ee2-24f4508fa8e2}" />
 	<object class="MixerBusFader" id="{3e45d6a2-6acb-4154-ac17-cafd80483056}" />
 	<object class="ThreeEQEffect" id="{d1ddb8ef-118e-45fb-9122-4482c11e80e7}">
+		<property name="midGain">
+			<value>-8</value>
+		</property>
 		<property name="highGain">
 			<value>-5.5</value>
 		</property>

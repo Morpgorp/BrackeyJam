@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{643256c9-5ea6-4ede-a8e9-e6d0093f03ad}">
 		<property name="name">
-			<value>Lighht Enter</value>
+			<value>Light Enter</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -53,7 +53,7 @@
 			<destination>{92ec44a8-9a7e-4ce6-90e9-27f5bbcc842f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{50761992-83c6-4dad-acaa-7be3f289ec08}</destination>
+			<destination>{7183f498-f23e-471f-8772-d341f8d6ab9b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{55606007-bca4-48e7-a831-4d0da6966dac}" />

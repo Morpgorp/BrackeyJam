@@ -53,7 +53,7 @@
 			<destination>{193babb8-cb55-4fa2-8a58-410f1b003cc0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{50761992-83c6-4dad-acaa-7be3f289ec08}</destination>
+			<destination>{7183f498-f23e-471f-8772-d341f8d6ab9b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{7415869c-22f5-4f2b-bf72-05e8a2cc4312}" />
@@ -91,6 +91,9 @@
 	<object class="MultiSound" id="{3f317f9d-1584-4253-9fff-fae55d96d668}">
 		<property name="length">
 			<value>1.4573125</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{a970b9fa-a1e4-4682-bb3f-be39d510cae5}</destination>

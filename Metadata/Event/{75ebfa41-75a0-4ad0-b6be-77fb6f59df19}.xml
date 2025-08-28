@@ -5,7 +5,7 @@
 			<value>Knock.SmallVol</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{ca87d2ad-7d4d-4f71-91c0-fb5cfa34cfdd}</destination>
@@ -70,7 +70,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{193c0eb8-edd0-4eac-bb2a-43666266452e}">
 		<property name="volume">
-			<value>-11</value>
+			<value>-6.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{f88f6708-4b9b-439f-8b2b-346068113657}</destination>
@@ -96,6 +96,8 @@
 	<object class="MixerBusEffectChain" id="{f88f6708-4b9b-439f-8b2b-346068113657}">
 		<relationship name="effects">
 			<destination>{1ae93b2d-497f-4605-9a55-6ff3fa28d0f8}</destination>
+			<destination>{760b7f5f-75ca-46a4-bcc0-4db6ef0b4728}</destination>
+			<destination>{87760737-b9e2-48c1-a35c-25240d844a4c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6359c0d4-05ed-43f5-b262-071a81becc25}" />
@@ -108,6 +110,18 @@
 	</object>
 	<object class="MixerBusFader" id="{b80d35f6-ed1c-4169-865b-c46b0423d180}" />
 	<object class="MixerBusFader" id="{1ae93b2d-497f-4605-9a55-6ff3fa28d0f8}" />
+	<object class="CompressorEffect" id="{760b7f5f-75ca-46a4-bcc0-4db6ef0b4728}">
+		<property name="threshold">
+			<value>-25.5</value>
+		</property>
+		<property name="attackTime">
+			<value>0.900000036</value>
+		</property>
+		<property name="releaseTime">
+			<value>78</value>
+		</property>
+	</object>
+	<object class="SpatialiserEffect" id="{87760737-b9e2-48c1-a35c-25240d844a4c}" />
 	<object class="SingleSound" id="{58a6d1c7-16c5-4c47-b24c-1810731571e6}">
 		<relationship name="audioFile">
 			<destination>{f0ad870a-8f9e-4755-a344-d6f5ead6ec6b}</destination>

@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6d5a721e-9567-484f-bb99-c72b5d267076}">
 		<property name="name">
-			<value>SELECT</value>
+			<value>MENU SELECT</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{dbafdf09-c17b-4e41-a238-4c75157f4070}</destination>
+			<destination>{f2fdfb82-cd93-443c-8fa5-b1f66a24b597}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{a7a04e72-2498-4972-90ca-5cf5b98affdb}</destination>
@@ -57,7 +57,7 @@
 			<destination>{3f13f2ab-fe2c-42e4-ac7d-229c965738b9}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{7183f498-f23e-471f-8772-d341f8d6ab9b}</destination>
+			<destination>{21c13d79-cbd2-4b92-9e54-842098820f30}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ecc51c77-3b96-4865-a94a-ffa2d5431c6a}" />

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{8e197287-a24b-45f3-90bd-64a98a558a8e}">
 		<property name="name">
-			<value>Spec.Item</value>
+			<value>Specisl3.Item</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -118,7 +118,7 @@
 	<object class="MixerBusFader" id="{1b4837ad-c084-42f8-bc8e-b753412e3dc1}" />
 	<object class="ThreeEQEffect" id="{f153bed8-1912-4d8b-8d29-36822e82ad75}">
 		<property name="lowGain">
-			<value>-10</value>
+			<value>-12</value>
 		</property>
 		<property name="midGain">
 			<value>-11</value>

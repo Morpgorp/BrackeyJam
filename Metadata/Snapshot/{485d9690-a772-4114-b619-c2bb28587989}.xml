@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Snapshot" id="{485d9690-a772-4114-b619-c2bb28587989}">
+		<property name="name">
+			<value>Alert.Phase</value>
+		</property>
+		<relationship name="mixer">
+			<destination>{6d6b83ff-1533-411d-b82e-838e938b3b04}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{6ec328d3-7c68-47fb-bc7e-d0b78651ef32}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{79f01efd-fb7d-4882-ab64-d58db39267f9}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{5f5f2821-04a7-453d-93f1-fd77c9161a99}</destination>
+		</relationship>
+		<relationship name="snapshotMasterTrack">
+			<destination>{0e60c6e5-feb2-421f-90a0-6f32f1a22b33}</destination>
+		</relationship>
+		<relationship name="snapshotTracks">
+			<destination>{992a9f47-dbbe-41cf-bba8-cc8837a9aa59}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{6ec328d3-7c68-47fb-bc7e-d0b78651ef32}" />
+	<object class="MarkerTrack" id="{79f01efd-fb7d-4882-ab64-d58db39267f9}" />
+	<object class="Timeline" id="{5f5f2821-04a7-453d-93f1-fd77c9161a99}" />
+	<object class="SnapshotMasterTrack" id="{0e60c6e5-feb2-421f-90a0-6f32f1a22b33}" />
+	<object class="SnapshotTrack" id="{992a9f47-dbbe-41cf-bba8-cc8837a9aa59}">
+		<relationship name="mixerStrip">
+			<destination>{50761992-83c6-4dad-acaa-7be3f289ec08}</destination>
+		</relationship>
+	</object>
+</objects>

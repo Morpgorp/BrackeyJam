@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{0ba75e6d-8fb1-4a1d-973b-547ebc88ed59}">
 		<property name="name">
-			<value>Light Switch Off</value>
+			<value>Light.Exit</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -53,7 +53,7 @@
 			<destination>{6449bb2c-f3cd-4e0a-9615-373a39d2a215}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{50761992-83c6-4dad-acaa-7be3f289ec08}</destination>
+			<destination>{7183f498-f23e-471f-8772-d341f8d6ab9b}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{85a24446-afe7-41bd-9ca9-6938bfc68930}" />
@@ -69,6 +69,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{a29bc3e8-77a6-4457-b0b8-2bc2f8b410d3}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{5ab0b655-2ff0-461c-aea2-bdd0aa38b55b}</destination>
 		</relationship>
@@ -94,6 +97,7 @@
 		<relationship name="effects">
 			<destination>{11ad8ee2-67ba-4738-9b44-3aed564e898f}</destination>
 			<destination>{62d73cb2-24d6-4c79-89db-c8fcb411d548}</destination>
+			<destination>{b7d11123-59d2-4049-b9d7-d5c943f44cc2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5b39cff5-3892-4b23-a773-b0308727ac02}" />
@@ -113,6 +117,17 @@
 	<object class="MixerBusFader" id="{398653c8-2f52-4059-ae9c-984ba43e2497}" />
 	<object class="MixerBusFader" id="{11ad8ee2-67ba-4738-9b44-3aed564e898f}" />
 	<object class="SpatialiserEffect" id="{62d73cb2-24d6-4c79-89db-c8fcb411d548}" />
+	<object class="MultibandEqEffect" id="{b7d11123-59d2-4049-b9d7-d5c943f44cc2}">
+		<property name="filterTypeA">
+			<value>3</value>
+		</property>
+		<property name="frequencyA">
+			<value>21999.9902</value>
+		</property>
+		<property name="qualityA">
+			<value>0.100000001</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{0f08b5eb-d465-4de3-8204-ef4a7f97cfa3}">
 		<relationship name="audioFile">
 			<destination>{ff3c3007-4212-4a8a-a332-9656db3ac083}</destination>
