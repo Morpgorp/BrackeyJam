@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{28a2c51f-ec6c-4767-b98c-b8a0eb337e83}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{4907a465-9c57-49ce-8f13-f2e0652c9bf2}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{dd574618-a2c5-4e36-b69a-c4f0dfd7cd8b}">
 		<relationship name="masterBus">
@@ -94,6 +97,9 @@
 		</property>
 		<property name="startOffset">
 			<value>49.5</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{08a9ee72-853a-4680-99ee-0b46e33af01d}</destination>
