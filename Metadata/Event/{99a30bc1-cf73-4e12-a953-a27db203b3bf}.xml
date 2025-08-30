@@ -272,6 +272,7 @@
 	<object class="MixerBusEffectChain" id="{295006c3-d92f-4d17-aedd-3db169b7ced6}">
 		<relationship name="effects">
 			<destination>{bed0e13d-204d-425e-85f3-238a6cfedfe6}</destination>
+			<destination>{88fdf9ec-7c7a-4ae2-9bb1-a3e873b488ec}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0cdc4eb8-a8bb-44ec-9489-df273f3c0d55}" />
@@ -308,6 +309,7 @@
 	<object class="MixerBusEffectChain" id="{a2160f69-7274-4ad2-91e9-59dc64ca7915}">
 		<relationship name="effects">
 			<destination>{139daaa5-581d-4083-96c1-2e7181a85020}</destination>
+			<destination>{a28f98f7-8baf-4fee-99fd-3be939d56fda}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{559e2e39-1b2a-4c55-b94b-2d88b64ca345}" />
@@ -324,6 +326,23 @@
 	</object>
 	<object class="MixerBusPanner" id="{d37dd952-b7db-4761-86a3-3e7583ebca5b}" />
 	<object class="MixerBusFader" id="{bed0e13d-204d-425e-85f3-238a6cfedfe6}" />
+	<object class="CompressorEffect" id="{88fdf9ec-7c7a-4ae2-9bb1-a3e873b488ec}">
+		<property name="threshold">
+			<value>-23.5</value>
+		</property>
+		<property name="ratio">
+			<value>1.85000002</value>
+		</property>
+		<property name="attackTime">
+			<value>0.850000024</value>
+		</property>
+		<property name="releaseTime">
+			<value>48</value>
+		</property>
+		<property name="gain">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{5035deea-22e0-4f7b-ad1c-0d91953194fc}">
 		<relationship name="parameter">
 			<destination>{e37aebef-85e6-49d1-82ad-93d3417db75c}</destination>
@@ -350,6 +369,11 @@
 	</object>
 	<object class="MixerBusFader" id="{e4c35e6e-f310-4bb3-af3a-36d16dfb6401}" />
 	<object class="MixerBusFader" id="{139daaa5-581d-4083-96c1-2e7181a85020}" />
+	<object class="LimiterEffect" id="{a28f98f7-8baf-4fee-99fd-3be939d56fda}">
+		<property name="boost">
+			<value>6.80000019</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{b66530bf-565c-4de1-8e53-84058baa9ed7}" />
 	<object class="MixerBusFader" id="{9549df28-0425-4761-8604-31c283361016}" />
 	<object class="AutomationPoint" id="{d497dcf6-1ba3-4387-974e-c5d2102259ce}">
