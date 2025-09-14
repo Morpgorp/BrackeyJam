@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{4907a465-9c57-49ce-8f13-f2e0652c9bf2}</destination>
+			<destination>{40247540-7ea1-4896-a2b8-b9996d166f68}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{32f76f3b-2957-4273-97ad-96a827546071}">
@@ -99,7 +100,7 @@
 	<object class="MixerBusEffectChain" id="{f88f6708-4b9b-439f-8b2b-346068113657}">
 		<relationship name="effects">
 			<destination>{1ae93b2d-497f-4605-9a55-6ff3fa28d0f8}</destination>
-			<destination>{760b7f5f-75ca-46a4-bcc0-4db6ef0b4728}</destination>
+			<destination>{4f938074-9bc2-4211-9fc3-ef31cadbd0fb}</destination>
 			<destination>{87760737-b9e2-48c1-a35c-25240d844a4c}</destination>
 		</relationship>
 	</object>
@@ -113,15 +114,12 @@
 	</object>
 	<object class="MixerBusFader" id="{b80d35f6-ed1c-4169-865b-c46b0423d180}" />
 	<object class="MixerBusFader" id="{1ae93b2d-497f-4605-9a55-6ff3fa28d0f8}" />
-	<object class="CompressorEffect" id="{760b7f5f-75ca-46a4-bcc0-4db6ef0b4728}">
+	<object class="CompressorEffect" id="{4f938074-9bc2-4211-9fc3-ef31cadbd0fb}">
 		<property name="threshold">
-			<value>-25.5</value>
+			<value>-32</value>
 		</property>
-		<property name="attackTime">
-			<value>0.900000036</value>
-		</property>
-		<property name="releaseTime">
-			<value>78</value>
+		<property name="gain">
+			<value>5</value>
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{87760737-b9e2-48c1-a35c-25240d844a4c}" />

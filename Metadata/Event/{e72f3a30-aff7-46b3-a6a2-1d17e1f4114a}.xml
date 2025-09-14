@@ -38,6 +38,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{4907a465-9c57-49ce-8f13-f2e0652c9bf2}</destination>
+			<destination>{40247540-7ea1-4896-a2b8-b9996d166f68}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{30ddb061-1719-4294-a250-caeb8c0693be}">
@@ -116,6 +117,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1b2aca9a-bb3c-43c0-be0c-835cc09385ff}">
+		<property name="volume">
+			<value>-0.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{cc8a8537-53fd-428c-ac81-e813e896f3d6}</destination>
 		</relationship>
@@ -319,6 +323,7 @@
 		<relationship name="effects">
 			<destination>{a2c5e3ba-05d6-426e-9b74-e9c84770f7d9}</destination>
 			<destination>{fcb157f9-32b4-49c0-9257-180a436596b6}</destination>
+			<destination>{8aaa0bf9-b647-4d23-9c1e-57480ef0d3f6}</destination>
 			<destination>{2f9cda02-6ba6-45a5-82cf-7c844df0f3eb}</destination>
 		</relationship>
 	</object>
@@ -472,6 +477,23 @@
 	<object class="MixerBusPanner" id="{7ae07642-f060-4a46-b175-22cf906cba02}" />
 	<object class="MixerBusFader" id="{a2c5e3ba-05d6-426e-9b74-e9c84770f7d9}" />
 	<object class="SpatialiserEffect" id="{fcb157f9-32b4-49c0-9257-180a436596b6}" />
+	<object class="CompressorEffect" id="{8aaa0bf9-b647-4d23-9c1e-57480ef0d3f6}">
+		<property name="threshold">
+			<value>-50.5</value>
+		</property>
+		<property name="ratio">
+			<value>1.45000005</value>
+		</property>
+		<property name="attackTime">
+			<value>3.4000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>56</value>
+		</property>
+		<property name="gain">
+			<value>8.5</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{2f9cda02-6ba6-45a5-82cf-7c844df0f3eb}">
 		<property name="decayTime">
 			<value>230</value>
@@ -722,7 +744,7 @@
 			<value>0.52000000000000002</value>
 		</property>
 		<property name="value">
-			<value>-11</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{2af2bd4e-f816-45dd-85ac-647f90768637}">
@@ -730,7 +752,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-38</value>
 		</property>
 		<property name="curveShape">
 			<value>1</value>
@@ -741,7 +763,7 @@
 			<value>0.49997916666666664</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-38</value>
 		</property>
 		<property name="curveShape">
 			<value>0.324174732</value>

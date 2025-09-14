@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{598f54b7-ee8b-4405-94cf-0c3af7b71e5e}">
 		<property name="name">
-			<value>Dive mETAL</value>
+			<value>Dive</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{4907a465-9c57-49ce-8f13-f2e0652c9bf2}</destination>
+			<destination>{0b487a39-a4ac-4c39-9d72-ad5867a9f9b0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{37d9d0ae-b193-4fb1-91ec-8aa3e4d3fe32}">
@@ -115,10 +116,13 @@
 	<object class="MixerBusFader" id="{384565fb-e6fb-442c-beea-b20813263b15}" />
 	<object class="ThreeEQEffect" id="{796f3e65-9df8-4334-ae1f-7a24efa92711}">
 		<property name="lowGain">
-			<value>-10</value>
+			<value>-4</value>
 		</property>
 		<property name="midGain">
 			<value>-8.5</value>
+		</property>
+		<property name="highGain">
+			<value>-10.5</value>
 		</property>
 	</object>
 	<object class="CompressorEffect" id="{13662165-500a-4354-94fd-d54b472f4ce8}">
@@ -167,7 +171,7 @@
 			<value>volume</value>
 		</property>
 		<property name="amount">
-			<value>8.5</value>
+			<value>1.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{261372c8-d7df-4412-9b8e-f64a8b0f51ed}">
@@ -175,7 +179,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>9.5</value>
+			<value>1.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{90b71e93-292f-4c29-b59e-7b3d69a7c517}">
@@ -183,7 +187,7 @@
 			<value>volume</value>
 		</property>
 		<property name="amount">
-			<value>8</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{ef8e4c2b-1056-4e60-b625-dbc7cbbf81b2}">
@@ -191,7 +195,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>12</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{8b2c93aa-2f23-4150-8ebe-b778b82a7f74}">
@@ -199,7 +203,7 @@
 			<value>volume</value>
 		</property>
 		<property name="amount">
-			<value>9</value>
+			<value>1.5</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{0137dde4-59cf-4280-9367-84c02972c3fb}">
@@ -207,7 +211,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>16.5</value>
+			<value>2</value>
 		</property>
 	</object>
 </objects>

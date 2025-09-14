@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{573edf5a-5039-490b-a2bb-ac14b7c40b35}">
 		<property name="name">
-			<value>Knock.Vol</value>
+			<value>Knock.Velocity</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e0d45821-0e9d-43b9-a22c-a3f96b172284}</destination>

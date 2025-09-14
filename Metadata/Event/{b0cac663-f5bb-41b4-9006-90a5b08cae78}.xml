@@ -33,6 +33,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{4907a465-9c57-49ce-8f13-f2e0652c9bf2}</destination>
+			<destination>{40247540-7ea1-4896-a2b8-b9996d166f68}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{e6669f8b-1f44-42e9-a47e-030e35623f5e}">
@@ -97,6 +98,7 @@
 		<relationship name="effects">
 			<destination>{401faaf1-e567-431d-821b-11b262964b80}</destination>
 			<destination>{5f56ed2a-f638-46ad-8eb1-a5f595d85cc3}</destination>
+			<destination>{ed924ab3-28be-4256-bb02-4605fb3894dd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{70884871-d510-4ac1-b7fa-aedd1a61a20a}">
@@ -117,6 +119,14 @@
 	<object class="MixerBusFader" id="{bdcca21c-625c-4d1e-905b-ec8d5582dd6a}" />
 	<object class="MixerBusFader" id="{401faaf1-e567-431d-821b-11b262964b80}" />
 	<object class="SpatialiserEffect" id="{5f56ed2a-f638-46ad-8eb1-a5f595d85cc3}" />
+	<object class="CompressorEffect" id="{ed924ab3-28be-4256-bb02-4605fb3894dd}">
+		<property name="threshold">
+			<value>-32</value>
+		</property>
+		<property name="gain">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{cb4f9ee5-2eea-4152-bc0a-4a8b7e82863e}">
 		<property name="volume">
 			<value>-7.5</value>

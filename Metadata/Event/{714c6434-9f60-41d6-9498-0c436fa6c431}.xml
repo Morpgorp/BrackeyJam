@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{714c6434-9f60-41d6-9498-0c436fa6c431}">
 		<property name="name">
-			<value>Boss.Level</value>
+			<value>Boss</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -39,6 +39,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{4907a465-9c57-49ce-8f13-f2e0652c9bf2}</destination>
+			<destination>{0c257bc0-9e4a-4ebf-9904-76b50980b7ee}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{0384d2e4-4a6c-41de-b8dd-fd5175fcd5d2}">

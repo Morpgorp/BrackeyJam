@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{99a30bc1-cf73-4e12-a953-a27db203b3bf}">
 		<property name="name">
-			<value>Level 1</value>
+			<value>Bakery</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -40,6 +40,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{4907a465-9c57-49ce-8f13-f2e0652c9bf2}</destination>
+			<destination>{0c257bc0-9e4a-4ebf-9904-76b50980b7ee}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{0c49c0f3-b822-44f7-824a-ac596ce6b7a2}">
@@ -328,7 +329,7 @@
 	<object class="MixerBusFader" id="{bed0e13d-204d-425e-85f3-238a6cfedfe6}" />
 	<object class="CompressorEffect" id="{88fdf9ec-7c7a-4ae2-9bb1-a3e873b488ec}">
 		<property name="threshold">
-			<value>-23.5</value>
+			<value>-18</value>
 		</property>
 		<property name="ratio">
 			<value>1.85000002</value>

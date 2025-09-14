@@ -35,6 +35,7 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{4907a465-9c57-49ce-8f13-f2e0652c9bf2}</destination>
+			<destination>{0b487a39-a4ac-4c39-9d72-ad5867a9f9b0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{7581e67a-c43f-44f5-8927-e4fa59524b01}">
@@ -229,6 +230,7 @@
 		<relationship name="effects">
 			<destination>{05fc5050-8560-4f25-ac00-a7d5c486c253}</destination>
 			<destination>{6111ebd0-341e-41ff-8c00-3af143211e90}</destination>
+			<destination>{5745c12b-5634-4757-a208-7211288d4ab5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b656b226-f903-4484-ac0a-8e7223a99f91}" />
@@ -361,6 +363,20 @@
 	<object class="MixerBusPanner" id="{d7c2de45-2d55-4902-9c5f-946207b0a01d}" />
 	<object class="MixerBusFader" id="{05fc5050-8560-4f25-ac00-a7d5c486c253}" />
 	<object class="SpatialiserEffect" id="{6111ebd0-341e-41ff-8c00-3af143211e90}" />
+	<object class="CompressorEffect" id="{5745c12b-5634-4757-a208-7211288d4ab5}">
+		<property name="threshold">
+			<value>-34.5</value>
+		</property>
+		<property name="ratio">
+			<value>1.25</value>
+		</property>
+		<property name="attackTime">
+			<value>46</value>
+		</property>
+		<property name="gain">
+			<value>5.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{04cad59e-f08e-44b0-9e5e-8c3bfdfc98df}" />
 	<object class="AutomationPoint" id="{7b124f4d-d209-4a82-ab0a-4a1b45635da3}">
 		<property name="position">
